@@ -4,6 +4,7 @@ public with sharing class MyStudent {
     }
     public static void myMethod()
     {
-        system.debug('my method1');
+        system.debug('this is my first method');
+    
     }
 }
