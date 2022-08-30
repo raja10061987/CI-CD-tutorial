@@ -14,6 +14,11 @@ export default class MyFirstComponent extends LightningElement
     {
         console.log('new method2 added');
     }
+    method3()
+    {
+        console.log('new method3 added');
+    }
+    
 
 
 }
