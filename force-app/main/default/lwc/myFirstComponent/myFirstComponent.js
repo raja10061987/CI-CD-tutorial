@@ -1,3 +1,10 @@
-import { LightningElement } from 'lwc';
+import CompletedDateTime from '@salesforce/schema/Task.CompletedDateTime';
+import { LightningElement,track,wire } from 'lwc';
 
-export default class MyFirstComponent extends LightningElement {}
+export default class MyFirstComponent extends LightningElement 
+{
+    @track code;
+    @track name;
+
+
+}
