@@ -10,6 +10,10 @@ export default class MyFirstComponent extends LightningElement
     {
         console.log('this is meyhod1');
     }
+    method2()
+    {
+        console.log('new method2 added');
+    }
 
 
 }
