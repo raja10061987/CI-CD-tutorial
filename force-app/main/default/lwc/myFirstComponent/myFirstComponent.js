@@ -6,5 +6,10 @@ export default class MyFirstComponent extends LightningElement
     @track code;
     @track name;
 
+    method1()
+    {
+        console.log('this is meyhod1');
+    }
+
 
 }
